@@ -4,8 +4,8 @@ gwt {
     minHeapSize="1G"
 
     src = files(file("src/")) // Needs to be in front of "modules" below.
-    modules 'com.nettifo.ase.GdxDefinition'
-    devModules 'com.nettifo.ase.GdxDefinitionSuperdev'
+    modules 'com.mygdx.ammostatusempty.GdxDefinition'
+    devModules 'com.mygdx.ammostatusempty.GdxDefinitionSuperdev'
     project.webAppDirName = 'webapp'
 
     compiler {
